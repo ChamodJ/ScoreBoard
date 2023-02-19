@@ -1,0 +1,71 @@
+body {
+   /* background-color: #0C4A6E;*/
+    color: white;
+    margin-top: 50px;
+    background: url(images/jc-gellidon-XmYSlYrupL8-unsplash.jpg);
+    background-size: cover;
+    margin: 20px auto ;
+    
+}
+
+.main {
+   /* display: flex;*/
+    justify-content: space-around;
+    background: linear-gradient(#3a0ca3 , #7209b7);
+    padding: 75px ;
+    border-radius: 55px;
+
+}
+
+.scorebord {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px;
+}
+
+.score {
+    background-color: black;
+    text-align: center;
+    width: 100px;
+    
+    
+}
+
+.score-btns {
+    margin-top: 25px;
+}
+
+button {
+    background-color: #0C4A6E;
+    color: #9CA3AF;
+    padding: 5px;
+    width: 40px;
+
+    border: 1px solid #9CA3AF;
+    border-radius: 3px;
+}
+
+.other-options {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#newgame-btn {
+    width: 150px;
+
+    padding: 9px 25px;
+    border: 2px solid #3a0ca3;
+    border-radius: 5px;
+    color: white;
+}
